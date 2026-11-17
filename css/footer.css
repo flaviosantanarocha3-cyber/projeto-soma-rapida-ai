@@ -1,0 +1,43 @@
+
+/* ========================================
+   SEÇÃO: RODAPÉ DO CARTÃO
+   ======================================== */
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--cor-borda-suave);
+}
+
+.icone-engrenagem {
+    font-size: 1.2rem;
+}
+
+.texto-powered {
+    font-size: 0.9rem;
+    color: var(--cor-texto-secundario);
+}
+
+/* ========================================
+   SEÇÃO: BARRA INFERIOR
+   ======================================== */
+.barra-inferior {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, var(--cor-barra-inicio) 0%, var(--cor-barra-fim) 100%);
+    padding: 8px;
+    text-align: center;
+    border-top: 1px solid var(--cor-borda-suave);
+}
+
+.texto-marca {
+    color: var(--cor-marca);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
